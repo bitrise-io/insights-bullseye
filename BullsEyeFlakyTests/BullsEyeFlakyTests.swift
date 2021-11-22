@@ -40,7 +40,7 @@ class BullsEyeFlakyTests: XCTestCase {
 
     func testFlakyFeature() throws {
       let number = Int.random(in: 0..<100)
-      XCTAssertEqual(number % 2, 0, "Number is not even")
+      XCTAssertEqual(number % 3, 0, "Number is not even")
     }
   
   func testFlakySkip() throws {
