@@ -28,19 +28,18 @@
 
 import XCTest
 
-class BullsEyeFlakyTests: XCTestCase {
+class BullsEyeSkippedTests: XCTestCase {
+  
+  override func setUpWithError() throws {
+      // Put setup code here. This method is called before the invocation of each test method in the class.
+  }
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testFlakyFeature() throws {
-      let number = Int.random(in: 0..<100)
-      XCTAssertEqual(number % 2, 0, "Number is not even")
-    }
+  override func tearDownWithError() throws {
+      // Put teardown code here. This method is called after the invocation of each test method in the class.
+  }
+  
+  func testFlakySkip() throws {
+    throw XCTSkip("SkipTest")
+  }
 
 }

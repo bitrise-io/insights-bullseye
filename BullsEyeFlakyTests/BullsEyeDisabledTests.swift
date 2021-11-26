@@ -28,7 +28,7 @@
 
 import XCTest
 
-class BullsEyeFlakyTests: XCTestCase {
+class BullsEyeDisabledTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -38,9 +38,9 @@ class BullsEyeFlakyTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testFlakyFeature() throws {
-      let number = Int.random(in: 0..<100)
-      XCTAssertEqual(number % 2, 0, "Number is not even")
+    func testExample() throws {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
 }

@@ -69,6 +69,11 @@
                BlueprintName = "BullsEyeFlakyTests"
                ReferencedContainer = "container:BullsEye.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "BullsEyeDisabledTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
