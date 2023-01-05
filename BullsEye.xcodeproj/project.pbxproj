@@ -20,6 +20,7 @@
 		5394F02521864DF5006E754C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5394F02321864DF4006E754C /* LaunchScreen.storyboard */; };
 		94D8FD7B22149E0C002D9843 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8FD7A22149E0C002D9843 /* BullsEyeTests.swift */; };
 		94D8FDB52214ACA0002D9843 /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8FDB42214ACA0002D9843 /* BullsEyeUITests.swift */; };
+		BA7E872F2967215900A350EB /* BullsEyeSlowTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7E872E2967215900A350EB /* BullsEyeSlowTests2.swift */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
@@ -78,6 +79,7 @@
 		94D8FDB22214ACA0002D9843 /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D8FDB42214ACA0002D9843 /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		94D8FDB62214ACA0002D9843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA7E872E2967215900A350EB /* BullsEyeSlowTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeSlowTests2.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			children = (
 				20632CC325EAA22D00F45997 /* BullsEyeSlowTests.swift */,
 				20632CC525EAA22D00F45997 /* Info.plist */,
+				BA7E872E2967215900A350EB /* BullsEyeSlowTests2.swift */,
 			);
 			path = BullsEyeSlowTests;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7E872F2967215900A350EB /* BullsEyeSlowTests2.swift in Sources */,
 				20632CC425EAA22D00F45997 /* BullsEyeSlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
