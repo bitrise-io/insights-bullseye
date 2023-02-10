@@ -70,23 +70,7 @@ class BullsEyeGame {
   }
 
   func getRandomNumber(completion: @escaping (Int) -> Void) {
-    guard let url = URL(string: "http://www.randomnumberapi.com/api/v1.0/random?min=0&max=100&count=1") else {
-      return
-    }
-    let task = urlSession.dataTask(with: url) { data, _, error in
-      do {
-        guard
-          let data = data,
-          error == nil,
-          let newTarget = try JSONDecoder().decode([Int].self, from: data).first
-        else {
-          return
-        }
-        completion(newTarget)
-      } catch {
-        print("Decoding of random numbers failed.")
-      }
-    }
-    task.resume()
+    let randomInt = Int.random(in: 0..<100)
+    completion(randomInt)
   }
 }
