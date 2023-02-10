@@ -56,7 +56,7 @@ class BullsEyeSlowTests: XCTestCase {
       "Network connectivity needed for this test.")
 
     // given
-    let urlString = "http://www.randomnumberapi.com/api/v1.0/random?min=0&max=100&count=1"
+    let urlString = "https://api.bitrise.io/"
     let url = URL(string: urlString)!
     // 1
     let promise = expectation(description: "Status code: 200")
@@ -89,7 +89,7 @@ class BullsEyeSlowTests: XCTestCase {
     )
 
     // given
-    let urlString = "http://www.randomnumberapi.com/api/v1.0/random?min=0&max=100&count=1"
+    let urlString = "https://api.bitrise.io/"
     let url = URL(string: urlString)!
     let promise = expectation(description: "Completion handler invoked")
     var statusCode: Int?
