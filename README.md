@@ -1,5 +1,5 @@
 # bullseye
-
+Demo App
 Funky little sample project which has unit and UI tests for 
 generating data and testing Bitrise Insights.
 
